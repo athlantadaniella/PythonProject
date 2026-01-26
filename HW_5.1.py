@@ -9,7 +9,7 @@ if(
         and " " not in x
         and not any (char in string.punctuation and char != "_" for char in x)
         and x not in keyword.kwlist
-        and x.count('_')<2
+        and "__" not in x
 ):
     print('true')
 else:
