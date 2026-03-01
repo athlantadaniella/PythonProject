@@ -2,7 +2,7 @@ import string
 
 text1 = input('Enter letter 1:')
 text2 = input('Enter letter 2:')
-text3 = text1 + '-' + text2
+text3 = text1.lower() + '-' + text2
 print(text3)
 start, end = text3.split('-')
 
